@@ -209,17 +209,3 @@ print(f"Original Text: '{test_text_2}'")
 processed_text_2 = add_tones_to_text(test_text_2)
 print(f"Processed Text: '{processed_text_2}'")
 print("-" * 30)
-
-test_text_3 = "Vươn len. Con người. Yêu quý. Uyển chuyển. Biệt thự."
-# Kỳ vọng: len -> lên, người -> người, quý -> quý, uyển -> uyển, biệt -> biệt
-print(f"Original Text: '{test_text_3}'")
-processed_text_3 = add_tones_to_text(test_text_3)
-print(f"Processed Text: '{processed_text_3}'")
-print("-" * 30)
-
-test_text_4 = "Chúng ta phải đi vươn len để có con người đạo đức thuyết phục mọi người."
-# Một câu dài với nhiều từ có thể cần sửa dấu
-print(f"Original Text: '{test_text_4}'")
-processed_text_4 = add_tones_to_text(test_text_4)
-print(f"Processed Text: '{processed_text_4}'")
-print("-" * 30)
