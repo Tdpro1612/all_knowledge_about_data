@@ -204,7 +204,7 @@ print(f"Processed Text: '{processed_text_1}'")
 print("-" * 30)
 
 test_text_2 = "Em bé hoà ca. Con lái taù bay. Chưong trình giải quyết. Suy tiễn logic."
-# Kỳ vọng: hoà -> hòa, lái -> lái, chưong -> chương, giải -> giải, quyết -> quyết, tiễn -> tiễn
+# Kỳ vọng: hoà -> hòa, taù -> tàu
 print(f"Original Text: '{test_text_2}'")
 processed_text_2 = add_tones_to_text(test_text_2)
 print(f"Processed Text: '{processed_text_2}'")
